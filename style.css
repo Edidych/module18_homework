@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerLogo {
+    display: block;
+    float: left;
+    padding: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header-navbar-list {
+    padding: 35px;
+}
+
+
+.header-btnEnter {
+    background-color: transparent;
+    cursor: pointer;
+    Width: 106px;
+    Height: 43px;
+    border-radius: 6px;
+    margin: 0px 40px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.main-aboutUs {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-aboutUs-heading {
+    font-size: 64px;
+}
+
+.main-aboutUs-text {
+    font-size: 24px;
+    width: 925px;
+    height:105px;
+}
+
+.main-contact {
+    padding-top: 40px;
+    background: #F7F9FB;
+    height: 341px;
+}
+
+.main-contact-header {
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+.main-contact-date {
+    display: flex;
+    text-align: center;    
+}
+
+.main-contact-block {
+    border-right: 1px solid #C8C8CF;
+    width: 50vw;
+}
+
+.main-contact-blockTwo {
+    width: 50vw;
+}
+
+.main-contact-SizeText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-team-header {
+    font-size: 48px;
+    text-align: center;
+}
+
+.main-team-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-team-blockPerson {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.main-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.main-team-position {
+    text-align: center;
+    color: #828282;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3F3D56;
+    height: 124px;
+
+
+    
+}
+
+.footer-copyright {
+    color: #FFFFFF;    
+    margin: 20px;
+}
+
+.footer-socialNetworks {
+    display: flex;
+}
+
+.footer-socialNetworks-logo {
+    margin: 20px;
+}
+
+
